@@ -1,0 +1,80 @@
+.image_container{
+padding: auto;
+}
+.image_container:hover .image {
+    transform: scale(2.1);
+    margin: auto;
+    
+    z-index: 3;
+}
+
+
+.table-row:hover {
+    z-index: 2;
+}
+
+.table-row {
+    position: relative;
+    padding: auto;
+}
+.image {
+    max-width: 50px;
+    height: 50px;
+    transition: transform .5s ease-in-out;
+}
+
+
+.moviedatabase__container {
+    max-height: 500px;
+    overflow-y: auto;
+    overflow-x: auto;
+    margin: 3px 10px;
+}
+
+.moviedatabase{
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+}
+.moviedatabase__search{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.moviedatabase_row{
+    vertical-align: center;
+    white-space: nowrap;
+}
+.moviedatabase__columnCell {
+    max-width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+.moviedatabase__table{
+        table-layout: fixed;
+    
+}
+.moviedatabase__header{
+    background-color: rgb(66, 66, 205);
+    /* position: sticky; */
+    /* border-top: 5    px solid #4a92f6; */
+    top:0;
+    z-index: 100;
+}
+
+.moviedatabase__body{
+
+    border-top: 1px solid #4a92f6;
+}
+
+.moviedatabase td, .moviedatabase th {
+    border: 1px solid #4a92f6;
+    padding: 8px;
+}
+
+.moviedatabase_row:hover{
+    background-color: #172b47;
+    cursor: pointer;
+}

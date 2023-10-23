@@ -1,0 +1,168 @@
+.DetailSlug{
+
+}
+.title{
+font-weight: 800;
+border-bottom: 1px solid greenyellow;
+padding-top:2px;
+color:yellow;
+margin-bottom:4px;
+text-align: center;
+}
+.media_content{
+        border-bottom: 1px solid greenyellow;
+        border-radius: 3px;
+        padding-top:2px;
+        margin-bottom:1px;
+        display: flex;   
+        flex-direction: column;
+        justify-content: center;
+}
+@media screen and (min-width:768px)
+{
+.media_content
+        {flex-direction: row;
+        }
+}
+.media_poster {
+    object-fit: contain;
+    background-color: rgb(26, 26, 44);
+    align-self: center;
+}
+.media_description{
+
+}
+
+.director {
+    border-bottom: 1px solid greenyellow;
+    border-radius: 3px;
+    padding-top:2px;
+    margin-bottom:1px;
+    font-weight: 500;
+}
+.screenplay{
+    border-bottom: 1px solid greenyellow;
+    border-radius: 3px;
+    padding-top:2px;
+    margin-bottom:1px;
+        font-weight: 500;
+}
+.story {
+    border-bottom: 1px solid greenyellow;
+    border-radius: 3px;
+    padding-top:2px;
+    margin-bottom:1px;
+    font-weight: 500;
+}
+.producer {
+    border-bottom: 1px solid greenyellow;
+    border-radius: 3px;
+    padding-top:2px;
+    margin-bottom:1px;
+    font-weight: 500;
+}
+.starring{
+        border-bottom: 1px solid greenyellow;
+        border-radius: 3px;
+        padding-top:2px;
+        margin-bottom:1px;
+            font-weight: 500;
+}
+.cinematography{
+        border-bottom: 1px solid greenyellow;
+        border-radius: 3px;
+        padding-top:2px;
+        margin-bottom:1px;
+        font-weight: 500;
+    }
+.edited_by{
+        border-bottom: 1px solid greenyellow;
+        border-radius: 3px;
+        padding-top:2px;
+        margin-bottom:1px;
+            font-weight: 500;
+}
+.music_by{
+        border-bottom: 1px solid greenyellow;
+        border-radius: 3px;
+        padding-top:2px;
+        margin-bottom:1px;
+        font-weight: 500;
+    }
+.productioncompany{
+        border-bottom: 1px solid greenyellow;
+        border-radius: 3px;
+        padding-top:2px;
+        margin-bottom:1px;
+            font-weight: 500;
+}
+.distributed_by{
+        border-bottom: 1px solid greenyellow;
+        border-radius: 3px;
+        padding-top:2px;
+        margin-bottom:1px;
+            font-weight: 500;
+}
+.release_date{
+        border-bottom: 1px solid greenyellow;
+        border-radius: 3px;
+        padding-top:2px;
+        margin-bottom:1px;
+        font-weight: 500;
+}
+.running_time{
+        border-bottom: 1px solid greenyellow;
+        border-radius: 3px;
+        padding-top:2px;
+        margin-bottom:1px;
+            font-weight: 500;
+}
+.country {
+    border-bottom: 1px solid greenyellow;
+    border-radius: 3px;
+    padding-top:2px;
+    margin-bottom:1px;
+    font-weight: 500;
+}
+.language {
+    border-bottom: 1px solid greenyellow;
+    border-radius: 3px;
+    padding-top:2px;
+    margin-bottom:1px;
+    font-weight: 500;
+}
+.budget {
+    border-bottom: 1px solid greenyellow;
+    border-radius: 3px;
+    padding-top:2px;
+    margin-bottom:1px;
+    font-weight: 500;
+}
+.box_office {
+    border-bottom: 1px solid greenyellow;
+    border-radius: 3px;
+    padding-top:2px;
+    margin-bottom:1px;
+    font-weight: 500;
+}
+
+.text{
+    /* background-color: red; */
+    text-align: end;
+    font-style: italic;
+    font-weight: 500;
+    font-family: 'cursive   ';
+    padding-right: 2px;
+    color:rgb(218, 225, 14);
+}
+.label{
+    padding-left:2px
+}
+.trailer {
+    border-bottom: 1px solid greenyellow;
+    border-radius: 3px;
+    padding-top: 2px;
+    margin-bottom: 1px;
+    font-weight: 500;
+    text-align: center;
+}

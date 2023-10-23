@@ -1,0 +1,25 @@
+
+.mainPage{
+    color:white;
+}
+
+.mainPage__button{
+    color: yellow;
+    border: 1px solid rgb(63, 63, 170);
+    border-radius: 4px;
+    padding: 3px 6px;
+    margin:5px 10px;
+}
+.mainPage__button_number{
+    border:1px solid rgb(63, 63, 170);
+    border-radius: 4px;
+    padding: 3px 10px;
+    margin: 5px 8px;
+}
+.mainPage__pagination{
+    text-align: center;
+}
+.mainPage__progress_bar{
+    color:yellow;
+    background-color: chartreuse;
+}
